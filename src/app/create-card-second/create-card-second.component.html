@@ -1,0 +1,19 @@
+<div class="courses">
+  @for (course of courses;track course.id;let index=$index){
+
+  <div class="course-title">
+    {{ course.title }}
+    <div>
+      {{ course.description }}
+    </div>
+    <img width="300px" alt="Angular Logo" [src]="course.iconUrl" />
+
+    <div>
+      {{ course.longDescription }}
+    </div>
+  </div>
+
+  } @empty{
+  <h1>No courses found</h1>
+  }
+</div>

@@ -1,0 +1,33 @@
+.email {
+    position: relative;
+    bottom: 0;
+    left: 15%;
+    transform: translateX(-50%);
+    background-color: rgba(7, 138, 161, 0.103);
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    width: 80%;
+    max-width: 500px;
+    
+    margin:auto;
+    border-radius: 10px;
+  }
+  
+  .form-label-mail,
+  .form-label-text {
+    display: flex;
+    font-weight: bold;
+    
+  } 
+  
+  .form-control-mail,
+  .form-control-text {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .form-control-text {
+    resize: none;
+  }
+  
